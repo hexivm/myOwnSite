@@ -903,12 +903,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #18bc9c;
+  /*color: #18bc9c;*/
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #18bc9c;
+  /*color: #18bc9c;*/
   text-decoration: underline;
 }
 a:focus {
@@ -4086,8 +4086,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #18bc9c;
+/*  color: #18bc9c;*/
+  font-weight: 400;
   background-color: transparent;
+  /*jcNote: color logo*/
 }
 .navbar-default .navbar-text {
   color: #777777;
@@ -4097,8 +4099,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #18bc9c;
+  /*color: #18bc9c;*/
+  font-weight: 400;
   background-color: transparent;
+  /*jcNote: opciones del menu;*/
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

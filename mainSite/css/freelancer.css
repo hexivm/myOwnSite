@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    /*color: #18bc9c;*/
 }
 
 h1,
@@ -31,9 +31,9 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*text-transform: uppercase;*/
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+    font-weight: 300;
 }
 
 hr.star-light,
@@ -83,6 +83,7 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
+    /*jcNote: color de fondo de la seccion principal*/
 }
 
 header .container {
@@ -97,10 +98,10 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*text-transform: uppercase;*/
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -123,7 +124,7 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:1024px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -132,7 +133,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 4em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -143,14 +144,15 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*text-transform: uppercase;*/
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    /*font-size: 1.5em;*/
 }
 
 .navbar a:focus {
@@ -168,6 +170,15 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+    font-size: 2em;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 section {
@@ -182,6 +193,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #18bc9c;
+    /*jcNote: seccion about*/
 }
 
 @media(max-width:767px) {
@@ -267,6 +279,7 @@ section.success {
     border: solid 2px #fff;
     color: #18bc9c;
     background: #fff;
+    /*jcNote: boton download*/
 }
 
 .floating-label-form-group {
@@ -318,7 +331,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+/*    color: #18bc9c;*/
 }
 
 form .row:first-child .floating-label-form-group {

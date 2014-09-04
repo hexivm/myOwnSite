@@ -1,12 +1,10 @@
 
 body {
-    /*background: #f8f8f8 url(../img/pattern.jpg);*/
     background: #4d4d4d;
     text-align: left;
     font-family: 'Lato', Arial, sans-serif;
     color: #555;
     font-weight: 400;
-    /*border-top: 2px solid #e75967;*/
 }
 
 strong { font-weight: 700; }
@@ -19,7 +17,7 @@ a {
 
 a:hover { text-decoration: none;
           color: #fff;
-    font-style: italic;
+    font-size: 0.95em;
     text-shadow: 0 1px 7px rgba(0,0,0,.2);}
 
 ::-moz-selection 

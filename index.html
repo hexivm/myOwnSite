@@ -47,23 +47,24 @@
 <script>
     function jugar(){
 	
-		localStorage["bruno"] = "bruno";
-		localStorage["bruno1"] = "bruno1";
-		localStorage["bruno2"] = "bruno2";
-		localStorage["bruno3"] = "bruno3";
-		localStorage["bruno4"] = "bruno4";
-		localStorage["bruno5"] = "bruno5";
+		localStorage[0] = "bruno";
+		localStorage[1] = "bruno1";
+		localStorage[2] = "bruno2";
+		localStorage[3] = "bruno3";
+		localStorage[4] = "bruno4";
+		localStorage[5] = "bruno5";
 	
 
 		var usuario = document.getElementById('usuario').value;
 		
 		if (usuario != "" && usuario in localStorage) {
-			delete localStorage[usuario];
+			localStorage.removeItem(usuario);
 			var fuera = localStorage[Math.floor((Math.random() * localStorage.length))];
 			delete localStorage[fuera];
 			alert(fuera);
 		}
 	}
+
 </script>
 </html>
 

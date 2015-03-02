@@ -565,6 +565,6 @@ span.academicFormation, .technicalSkills  h2{
     color: #003366;
 }
 
-span.academicFormation{
+span.academicFormation, span.about, span.technicalSkills{
     display:inline-block;
 }

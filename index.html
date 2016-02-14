@@ -1,354 +1,423 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>juancarloscoello.net</title>
+<!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+    <!-- Custom CSS -->
+<!--    <link href="css/freelancer.css" rel="stylesheet"/>-->
+    <link rel="stylesheet" href="assets/css/freelancer.css">
+    <!-- Custom Fonts -->
+<!--    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="juancarloscoello.com">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <link rel="shortcut icon" href="images/favicon.png">
-
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
-
-    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.deep_purple-pink.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link async href="http://fonts.googleapis.com/css?family=Roboto:100,200,400" rel="stylesheet" type="text/css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    [if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]
 
-    <!--[if lt IE 9]><!-->
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <!--<![endif]-->
-    <style>
-        #view-source {
-            position: fixed;
-            display: block;
-            right: 0;
-            bottom: 0;
-            margin-right: 40px;
-            margin-bottom: 40px;
-            z-index: 900;
-        }
-    </style>
-</head>
+  </head>
 
-<body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header jcc-layout__header">
-            <div class="mdl-layout-icon"></div>
-            <div class="mdl-layout__header-row">
-                <a class="mdl-navigation__link" href="#main">
-                    <span class="mdl-layout__title">juancarloscoello.net</span>
-                </a>
-                <div class="mdl-layout-spacer"></div>
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="#about">.About me.</a>
-                    <a class="mdl-navigation__link" href="#skills">.Skills.</a>
-                    <a class="mdl-navigation__link" href="#contact">.Contact.</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <span class="mdl-layout__title">juancarloscoello.net</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="#about">.About me.</a>
-                <a class="mdl-navigation__link" href="#skills">.Skills.</a>
-                <a class="mdl-navigation__link" href="#contact">.Contact.</a>
-            </nav>
+  <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars fa-2x" style="color:#fff;"></i>
+            <!--
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+-->
+          </button>
+          <a class="navbar-brand" href="#page-top">juancarloscoello.net</a>
         </div>
-        <main class="mdl-layout__content">
-            <div id="main" class="svg-container mdl-typography--text-center">
-                <img class="mdl-layout--large-screen-only" src="images/logo.svg" height="350" width="350" />
-                <img class="mdl-layout--small-screen-only" src="images/logo.svg" height="250" width="250" />
-                <span class="mdl-layout--large-screen-only mdl-layout__title jcc-layout__title">.UX.Web.Mobile.</span>
-                <span class="mdl-layout--small-screen-only mdl-layout__title jcc-layout__title">.UX.Web.</span>
-                <span class="mdl-layout--small-screen-only mdl-layout__title jcc-layout__title">.Mobile.</span>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#about">about</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#technicalSkills">skills</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#academicFormation">formation</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="236.848px" height="270.334px" viewBox="0 0 236.848 270.334" enable-background="new 0 0 236.848 270.334" xml:space="preserve">
+              <g>
+                <polygon fill="#fff" points="12.108,102.631 12.108,82.054 111.869,139.652 111.869,254.879 12.108,197.284 12.108,135.554 29.924,145.84 29.924,186.993 94.055,224.02 94.055,149.944 	"></polygon>
+              </g>
+              <g>
+                <polygon fill="#fff" points="208.066,166.417 225.881,156.131 225.881,197.284 126.121,254.881 126.121,139.652 225.881,82.075 225.881,123.208 208.066,133.493 208.066,112.917 143.935,149.944 143.935,224.02 208.066,186.993 	"></polygon>
+              </g>
+              <g>
+                <polygon fill="#fff" points="165.334,59.438 183.147,49.153 218.788,69.729 119.027,127.326 19.236,69.711 119.014,12.125 154.636,32.691 136.822,42.977 119.002,32.688 54.872,69.714 119.022,106.752 183.152,69.726 	"></polygon>
+              </g>
+              <rect x="117.514" y="233.834" fill="#fff" width="3" height="33"></rect>
+              <polygon fill="#fff" points="203.811,84.938 205.175,87.301 233.609,70.75 232.244,68.385 "></polygon>
+              <rect x="17.918" y="61.448" transform="matrix(-0.5001 0.8659 -0.8659 -0.5001 96.3845 100.1626)" fill="#fff" width="2.73" height="32.903"></rect>
+              <polygon fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" points="233.024,201.385 119.012,267.211 5,201.385 5,69.737 119.012,3.913 233.024,69.737 "></polygon>
+            </svg>
+            <div>
+              <span>Web - Software - UX - Mobile</span>
             </div>
-            <div class="summary-section mdl-typography--text-center">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored jcc-button--colored">
-                    <i class="material-icons md-36">get_app</i>
-                </button>
-                <div id="about">
+          </div>
+        </div>
+      </div>
+    </header>
 
-                    <span class="mdl-layout__title jcc-layout__title">.About.</span>
-                    <ul class="aproach-list mdl-list">
-                        <li class="mdl-list__item mdl-list__item--three-line">
-                            <span class="mdl-list__item-primary-content jcc-list__item-primary-content">
-                                <i class="material-icons mdl-list__item-avatar jcc-list__item-avatar">check_circle</i>
-                                <span>Me...</span>
-                            <span class="mdl-list__item-text-body jcc-list__item-text-body">I am a firm believer in quality over quantity. I think the basis of this are teamwork and integration between human and technology.</span>
-                            </span>
-                        </li>
-                        <li class="mdl-list__item mdl-list__item--three-line">
-                            <span class="mdl-list__item-primary-content jcc-list__item-primary-content">
-                                <i class="material-icons  mdl-list__item-avatar jcc-list__item-avatar">check_circle</i>
-                                <span>Interests</span>
-                            <span class="mdl-list__item-text-body jcc-list__item-text-body">My main interests are UX, mobile development and web design and development. Integration with agile methodologies and implementation of best practices of software development.</span>
-                            </span>
-                        </li>
-                        <li class="mdl-list__item mdl-list__item--three-line">
-                            <span class="mdl-list__item-primary-content jcc-list__item-primary-content">
-                                <i class="material-icons  mdl-list__item-avatar jcc-list__item-avatar">check_circle</i>
-                                <span>...</span>
-                            <span class="mdl-list__item-text-body jcc-list__item-text-body">Every day I live is a new learning, I try to focus on to improve the environment around me. Passionate about reading and research.</span>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
+    <!-- About Section -->
+    <section>
+      <div class="container-fluid">
+        <!--
+<div class="row">
+<div class="col-lg-12 text-center">
+<img class="img-responsive img-centered" src="img/profile.png" alt="">
+</div>
+</div>
+-->
+        <div class="row" id="about">
+          <div class="col-lg-12 text-center">
+            <h1>juanCarlos<span class="about">Coello</span></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 well well-large about text-center">
+            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+              <p>I am a firm believer in quality over quantity. I think the basis of this are teamwork and integration between human and technology. Every day I live is a new learning, I try to focus on to improve the environment around me.</p>
+              <hr>
+              <p>My main interests are UX, mobile development and web design and development. Integration with agile methodologies and implementation of best practices of software development, ensuring effective maintainability of it.</p>
+              <hr>
+              <p>Passionate about reading and research.</p>
             </div>
-            <div id="skills" class="skills-section mdl-grid mdl-typography--text-center">
-                <div class="mdl-cell mdl-cell--12-col">
-                    <span class="mdl-layout__title jcc-layout__title">.Skills.</span>
-                </div>
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--4-col-phone">
-                    <div class="demo-card-square mdl-card mdl-shadow--2dp jcc-center">
-                        <div class="mdl-card__title mdl-card--expand">
-                            <i class="material-icons md-94 jcc-center">code</i>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Here you can see my code languges skills.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <button id="show-modal-skills" type="button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Skills</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--4-col-phone">
+            <div class="col-xs-10 col-xs-offset-1 text-center">
+              <a href="cv2015JuanCoelloEN.pdf" class="btn btn-lg btn-outline">
+                <i class="fa fa-download"></i>
+              </a>
+            </div>    
+          </div>
+        </div>
 
-                    <div class="demo-card-square mdl-card mdl-shadow--2dp jcc-center">
-                        <div class="mdl-card__title mdl-card--expand">
-                            <i class="material-icons md-76 jcc-center">build</i>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Here you can find the frameworks and libs that I've used.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <button id="show-modal-frameworks" type="button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Frameworks</button>
-                        </div>
-                    </div>
+      </div>
+
+
+    </section>
+
+    <section id="technicalSkills">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1>technical<span class="technicalSkills">Skills</span></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 well well-large technicalSkills">
+            <div class="row">
+              <h2 class="text-center">frontEnd</h2>
+              <ul class="fa-ul">
+                <div class="col-md-4 col-md-offset-2 col-xs-12">
+                  <li>
+                    <h3><i class="fa fa-cogs"></i>&nbsp;android</h3>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li fa fa-check-square"></i>API 15 - 21</li>
+                      <li><i class="fa-li fa fa-check-square"></i>Android Studio</li>
+                      <li><i class="fa-li fa fa-check-square"></i>Google Maps</li>
+                    </ul>
+                  </li>
                 </div>
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--4-col-phone">
-                    <div class="demo-card-square mdl-card mdl-shadow--2dp jcc-center">
-                        <div class="mdl-card__title mdl-card--expand">
-                            <i class="material-icons md-76 jcc-center">grade</i>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Here you can find the grades or certificates I have.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <button id="show-modal-grades" type="button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Grades</button>
-                        </div>
-                    </div>
+                <div class="col-md-4 col-md-offset-0 col-xs-12">
+                  <li>
+                    <h3><i class="fa fa-cogs"></i>&nbsp;web</h3>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li fa fa-check-square"></i>ASP .NET</li>
+                      <li><i class="fa-li fa fa-check-square"></i>MVC .NET</li>
+                      <li><i class="fa-li fa fa-check-square"></i>HTML 5</li>
+                      <li><i class="fa-li fa fa-check-square"></i>CSS 3</li>
+                      <li><i class="fa-li fa fa-check-square"></i>JavaScript</li>
+                      <li><i class="fa-li fa fa-check-square"></i>Bootstrap</li>
+                      <li><i class="fa-li fa fa-check-square"></i>AngularJS</li>
+                    </ul>
+                  </li>
                 </div>
+              </ul>
             </div>
-            <footer class="mdl-mini-footer">
-                <div id="contact" class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">
-                        .Contact.
-                    </div>
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><i class="fa fa-lg fa-map-marker"></i>&nbsp;Barcelona, Spain</li>
-                        <li><i class="fa fa-lg fa-phone"></i>&nbsp;+34 633 364 632</li>
-                    </ul>
+            <hr />
+            <div class="row">
+              <h2 class="text-center">backEnd</h2>
+              <ul class="fa-ul">
+                <div class="row">
+                  <div class="col-md-4 col-md-offset-2 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;coding languages</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>C#</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Java</li>
+                      </ul>
+                    </li>
+                  </div>
+
+                  <div class="col-md-4 col-md-offset-0 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;web services</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>WCF</li>
+                        <li><i class="fa-li fa fa-check-square"></i>SOAP</li>
+                        <li><i class="fa-li fa fa-check-square"></i>REST</li>
+                      </ul>
+                    </li>
+                  </div>
                 </div>
-                <div class="mdl-mini-footer__right-section">
-                    <div class="mdl-logo">
-                        &nbsp;
-                    </div>
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="mailto:juanc.coellop@gmail.com"><i class="fa fa-2x fa-google"></i></a></li>
-                        <li><a href="https://www.instagram.com/_juancoello"><i class="fa fa-2x fa-instagram"></i></a></li>
-                        <li><a href="https://www.twitter.com/_juanCoello"><i class="fa fa-2x fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
-                    </ul>
+                <div class="row">
+                  <div class="col-md-4 col-md-offset-2 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;databases</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>MySQL</li>
+                        <li><i class="fa-li fa fa-check-square"></i>SQL Server</li>
+                        <li><i class="fa-li fa fa-check-square"></i>SQLite</li>
+                      </ul>
+                    </li>
+                  </div>
+
+                  <div class="col-md-4 col-md-offset-0 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;web/app servers</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>IIS</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Apache</li>
+                      </ul>
+                    </li>
+                  </div>
                 </div>
-            </footer>
+              </ul>
+            </div>
+            <hr />
+            <div class="row">
+              <h2 class="text-center">development</h2>
 
-            <dialog class="mdl-dialog" id="modal-skills">
-                <div class="mdl-dialog__content">
-                    <div class="skillbar clearfix " data-percent="90%">
-                        <div class="skillbar-title" style="background: #E44C25;"><span>HTML5</span></div>
-                        <div class="skillbar-bar" style="background: #F16428;"></div>
-                        <div class="skill-bar-percent">90%</div>
-                    </div>
-
-                    <div class="skillbar clearfix " data-percent="80%">
-                        <div class="skillbar-title" style="background: #016FB9;"><span>CSS3</span></div>
-                        <div class="skillbar-bar" style="background: #28A8DF;"></div>
-                        <div class="skill-bar-percent">80%</div>
-                    </div>
-
-                    <div class="skillbar clearfix " data-percent="70%">
-                        <div class="skillbar-title" style="background: #E5A229;"><span>JavaScript</span></div>
-                        <div class="skillbar-bar" style="background: #F0BD20;"></div>
-                        <div class="skill-bar-percent">70%</div>
-                    </div>
-
-                    <div class="skillbar clearfix " data-percent="60%">
-                        <div class="skillbar-title" style="background: #2C2255;"><span>Java</span></div>
-                        <div class="skillbar-bar" style="background: #41337D;"></div>
-                        <div class="skill-bar-percent">60%</div>
-                    </div>
-
-                    <div class="skillbar clearfix " data-percent="35%">
-                        <div class="skillbar-title" style="background: #FD2720;"><span>Swift</span></div>
-                        <div class="skillbar-bar" style="background: #FC3B26;"></div>
-                        <div class="skill-bar-percent">20%</div>
-                    </div>
-
-                    <div class="skillbar clearfix " data-percent="70%">
-                        <div class="skillbar-title" style="background: #525FA7;"><span>C#</span></div>
-                        <div class="skillbar-bar" style="background: #457DBA;"></div>
-                        <div class="skill-bar-percent">70%</div>
-                    </div>
+              <ul class="fa-ul">
+                <div class="row">
+                  <div class="col-md-4 col-md-offset-2 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;collaborative &amp; design</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>Scrum</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Kanban</li>
+                        <li><i class="fa-li fa fa-check-square"></i>UML design</li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-md-4 col-md-offset-0 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;best practices</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>Inversion of Control</li>
+                        <li><i class="fa-li fa fa-check-square"></i>SOLID principles</li>
+                        <li><i class="fa-li fa fa-check-square"></i>DRY principle</li>
+                      </ul>
+                    </li>
+                  </div>
                 </div>
-                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
-                    <button type="button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect jcc-button">Close</button>
+                <div class="row">
+                  <div class="col-md-4 col-md-offset-4 col-xs-12">
+                    <li>
+                      <h3><i class="fa fa-cogs"></i>&nbsp;patterns</h3>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i>Singleton</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Strategy</li>
+                        <li><i class="fa-li fa fa-check-square"></i>MVC / MVP</li>
+                        <li><i class="fa-li fa fa-check-square"></i>Factory</li>
+                      </ul>
+                    </li>
+                  </div>
                 </div>
-            </dialog>
-            <dialog class="mdl-dialog" id="modal-frameworks">
-                <div class="mdl-dialog__content">
-                    <div class="skillbar clearfix " data-percent="80%">
-                        <div class="skillbar-title" style="background: #B63032;"><span>AngularJS</span></div>
-                        <div class="skillbar-bar" style="background: #E23337;"></div>
-                        <div class="skill-bar-percent">80%</div>
-                    </div>
-                    <!-- End Skill Bar -->
+              </ul>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="academicFormation">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1>academic<span class="academicFormation">Formation</span></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 well well-large academicFormation">
 
-                    <div class="skillbar clearfix " data-percent="70%">
-                        <div class="skillbar-title" style="background: #000000;"><span>jQuery</span></div>
-                        <div class="skillbar-bar" style="background: #1169AE;"></div>
-                        <div class="skill-bar-percent">70%</div>
-                    </div>
-                    <!-- End Skill Bar -->
 
-                    <div class="skillbar clearfix " data-percent="80%">
-                        <div class="skillbar-title" style="background: #2B1340;"><span>Bootstrap 3</span></div>
-                        <div class="skillbar-bar" style="background: #411E47;"></div>
-                        <div class="skill-bar-percent">80%</div>
-                    </div>
-                    <!-- End Skill Bar -->
 
-                    <div class="skillbar clearfix " data-percent="60%">
-                        <div class="skillbar-title" style="background: #9C2A55;"><span>Sass</span></div>
-                        <div class="skillbar-bar" style="background: #E288B2;"></div>
-                        <div class="skill-bar-percent">60%</div>
-                    </div>
-                    <!-- End Skill Bar -->
+            <h2 class="text-center">education &amp; certificates</h2>
 
-                    <div class="skillbar clearfix " data-percent="40%">
-                        <div class="skillbar-title" style="background: #263238;"><span>MDL</span></div>
-                        <div class="skillbar-bar" style="background: #68F0AE;"></div>
-                        <div class="skill-bar-percent">30%</div>
-                    </div>
-                    <!-- End Skill Bar -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <ul class="fa-ul">
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>Informatics' Engineer.</h4>
+                    <h5>Catholic University Andrés Bello, Caracas, Venezuela.</h5>
+                    <h6>2005/2006 - 2011/2012</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="text-center">courses</h2>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <ul class="fa-ul">
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>Course “CS 193P iPhone Application Development”.</h4>
+                    <h5>Stanford University via iTunesU.</h5>
+                    <h6>Online.</h6>
+                  </li>
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>Course “Angular JS for .NET applications”.</h4>
+                    <h5>Altran Spain training center.</h5>
+                    <h6>20 Academic hours.</h6>
+                  </li>
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>Course “MCSD 70-483 – Programming in C#”.</h4>
+                    <h5>Altran Spain training center.</h5>
+                    <h6>30 Academic hours.</h6>
+                  </li>
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>Course “Java SE”.</h4>
+                    <h5>Central University of Venezuela, CENEAC.</h5>
+                    <h6>20 Academic hours.</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="text-center">languages</h2>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <ul class="fa-ul">
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>Spanish:</h4>
+                    <h5>Native.</h5>
+                  </li>
+                  <li>
+                    <h4><i class="fa-li fa fa-check-square"></i>English:</h4>
+                    <h5>B2 of CEFR.</h5>
+                    <h6>Currently I’m taking a course with “Open English Institute” to improve my English </h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    <div class="skillbar clearfix " data-percent="45%">
-                        <div class="skillbar-title" style="background: #B63032;"><span>AngularJS 2</span></div>
-                        <div class="skillbar-bar" style="background: #E23337;"></div>
-                        <div class="skill-bar-percent">40%</div>
-                    </div>
-                    <!-- End Skill Bar -->
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-4 col-md-offset-2">
+              <h3>Contact</h3>
+              <ul class="fa-ul">
+                <li><h4><i class="fa fa-map-marker"></i>&nbsp;Barcelona, Spain</h4></li>
+                <li><h4><i class="fa fa-phone"></i>&nbsp;+34 633 364 632</h4></li>
+              </ul>
+            </div>
+            <div class="footer-col col-md-4 col-md-offset-0">
+              <h3>Around the Web</h3>
+              <ul class="list-inline">
+                <li>
+                  <a href="mailto:juanc.coellop@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-google"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/_juancoello" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/_juancoello" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy; juancarloscoello.net 2015
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-                    <div class="skillbar clearfix " data-percent="50%">
-                        <div class="skillbar-title" style="background: #6F95DB;"><span>Webpack</span></div>
-                        <div class="skillbar-bar" style="background: #A2BDE9;"></div>
-                        <div class="skill-bar-percent">50%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                    <div class="skillbar clearfix " data-percent="50%">
-                        <div class="skillbar-title" style="background: #090050;"><span>Photoshop</span></div>
-                        <div class="skillbar-bar" style="background: #8FC2FC;"></div>
-                        <div class="skill-bar-percent">50%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                    <div class="skillbar clearfix " data-percent="55%">
-                        <div class="skillbar-title" style="background: #573F26;"><span>Illustrator</span></div>
-                        <div class="skillbar-bar" style="background: #FABA4E;"></div>
-                        <div class="skill-bar-percent">55%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                    <div class="skillbar clearfix " data-percent="60%">
-                        <div class="skillbar-title" style="background: #77C159;"><span>Android</span></div>
-                        <div class="skillbar-bar" style="background: #99CC00;"></div>
-                        <div class="skill-bar-percent">60%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                </div>
-                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
-                    <button type="button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect jcc-button">Close</button>
-                </div>
-            </dialog>
-            <dialog class="mdl-dialog" id="modal-grades">
-                <div class="mdl-dialog__content">
-
-                    <div class="skillbar clearfix " data-percent="100%">
-                        <div class="skillbar-title" style="background: #d35400;"><span>SW Engineering</span></div>
-                        <div class="skillbar-bar" style="background: #e67e22;"></div>
-                        <div class="skill-bar-percent">100%</div>
-                    </div>
-
-                    <div class="skillbar clearfix " data-percent="90%">
-                        <div class="skillbar-title" style="background: #d35400;"><span>Exam-70-480</span></div>
-                        <div class="skillbar-bar" style="background: #e67e22;"></div>
-                        <div class="skill-bar-percent">90%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                    <div class="skillbar clearfix " data-percent="100%">
-                        <div class="skillbar-title" style="background: #2980b9;"><span>Html5 / CSS3</span></div>
-                        <div class="skillbar-bar" style="background: #3498db;"></div>
-                        <div class="skill-bar-percent">100%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                    <div class="skillbar clearfix " data-percent="50%">
-                        <div class="skillbar-title" style="background: #2c3e50;"><span>UX Specialization</span></div>
-                        <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                        <div class="skill-bar-percent">50%</div>
-                    </div>
-                    <!-- End Skill Bar -->
-
-                </div>
-                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
-                    <button type="button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect jcc-button">Close</button>
-                </div>
-            </dialog>
-        </main>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+      <a class="btn btn-default" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
     </div>
 
-    <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="scripts/skillbar.js"></script>
-    <script src="scripts/dialog-polyfill.js"></script>
-</body>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <!--    <script src="js/bootstrap.min.js"></script>-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="assets/js/freelancer.js"></script>
+
+  </body>
 
 </html>

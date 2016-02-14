@@ -1,0 +1,232 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.svg-container {
+    background-color: #222;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 3em 0;
+}
+.svg-container > img {
+    padding: 1em 0;
+}
+.jcc-layout__header {
+    background-color: #222;
+}
+.jcc-layout__title {
+    font-size: 4em;
+    letter-spacing: 0;
+}
+.mdl-button--raised.jcc-button--colored {
+    background: rgb(255, 255, 255);
+    color: #222;
+}
+.mdl-button--raised.jcc-button--colored:hover {
+    background: #222;
+    color: rgb(255, 255, 255);
+}
+.summary-section {
+    position: relative;
+    background: url('../images/bg.jpg') center top no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.summary-section > button {
+    height: 4em;
+    width: 6em;
+    top: 200px;
+}
+.summary-section > div {
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #440000;
+    padding: 2em 0;
+    color: #FFF;
+}
+.mdl-list__item-avatar.material-icons.jcc-list__item-avatar {
+    background-color: #440000;
+}
+.skills-section {
+    position: relative;
+    margin-top: 100px;
+}
+.aproach-list {
+    margin: 0 auto;
+    max-width: 650px;
+    color: #FFF;
+    padding: 1em 0;
+}
+.jcc-list__item-primary-content,
+.mdl-list__item--three-line .jcc-list__item-text-body {
+    color: #FFF;
+}
+.jcc-center {
+    margin: 0 auto;
+}
+.demo-card-square.mdl-card {
+    width: 100%;
+    height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+    color: #FFF;
+    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #030032;
+}
+.mdl-card__actions.mdl-card--border {
+    background-color: #002B71;
+}
+.mdl-card__actions.mdl-card--border > .mdl-button {
+    color: #FFF;
+}
+.mdl-card__supporting-text {
+    color: #000;
+}
+.mdl-cell {
+    padding: 1.5em 1em;
+}
+.material-icons.md-18 {
+    font-size: 18px;
+}
+.material-icons.md-24 {
+    font-size: 24px;
+}
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.material-icons.md-48 {
+    font-size: 48px;
+}
+.material-icons.md-64 {
+    font-size: 64px;
+}
+.material-icons.md-76 {
+    font-size: 76px;
+}
+.material-icons.md-88 {
+    font-size: 88px;
+}
+.material-icons.md-94 {
+    font-size: 94px;
+}
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+.skills-section > div {
+    color: #030032;
+}
+.mdl-dialog {
+    border: none;
+    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+    width: 95%;
+}
+.mdl-dialog__title {
+    padding: 24px 24px 0;
+    margin: 0;
+    font-size: 2.5rem;
+}
+.mdl-dialog__actions {
+    padding: 8px 8px 8px 24px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.mdl-dialog__actions > * {
+    margin-right: 8px;
+    height: 36px;
+}
+.mdl-dialog__actions > *:first-child {
+    margin-right: 0;
+}
+.mdl-dialog__actions--full-width {
+    background-color: #002B71;
+    padding: 0;
+}
+.mdl-dialog__actions--full-width > * {
+    height: 48px;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding-right: 16px;
+    margin-right: 0;
+    text-align: right;
+}
+.mdl-dialog__content {
+    padding: 20px 24px 24px 24px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.mdl-button.mdl-button--colored.jcc-button{
+    color:#FFF;
+}

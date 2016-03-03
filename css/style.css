@@ -1,0 +1,98 @@
+p {
+  line-height: 2rem;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 70%;
+    max-width: 190px;
+    height: auto;
+}
+
+#who-im{
+    min-height: 300px;
+}
+
+.vertical-parent-container{
+    padding: 5% 0;
+}
+
+.vertical-child-container{
+    padding: 10% 0;
+}
+
+#about{
+    background: 
+    /*linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.0)
+    ),*/
+   url(../images/about-background.png) repeat;
+}
+
+.card-background{
+    padding: 40px 0;
+}
+
+.card-background > i{
+    font-size: 10rem;
+}
+
+.card-description{
+    padding-top: 15px; 
+}
+
+.show-more-label{
+    cursor: pointer;
+}
+
+.do-not-push{
+    width: 200px;
+    height: 200px;
+}
+
+.do-not-push > i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    line-height: 2em;
+    font-size: 7em;
+}
+
+#funny h2 {
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#logo-container, h1, h5{
+    font-weight: 200;
+}
+h1{
+    margin: 0;
+}
+#logo-container{
+    font-size: 1.75em;
+}

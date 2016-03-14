@@ -1,7 +1,151 @@
-nav ul a, nav .brand-logo {
+nav ul a, nav .brand-logo, .modal-content {
   color: #444;
 }
 
 .parallax-container {
   color: rgba(255,255,255,.9);
+}
+
+.html5-bar.progress {
+    background-color: #f4b2a1;
+}
+
+.html5-bar > .determinate {
+    background-color: #e54d26;
+}
+
+.css3-bar.progress {
+    background-color: #a7cce5;
+}
+
+.css3-bar > .determinate {
+    background-color: #3d8fc6;
+}
+
+.javascript-bar.progress {
+    background-color: #f6ea97;
+}
+
+.javascript-bar > .determinate {
+    background-color: #f0db4f;
+}
+
+.jquery-bar.progress {
+    background-color: #91cffb;
+}
+
+.jquery-bar > .determinate {
+    background-color: #0769ad;
+}
+
+.sass-bar.progress {
+    background-color: #e5b0ca;
+}
+
+.sass-bar > .determinate {
+    background-color: #c69;
+}
+
+.angularjs1-bar.progress {
+    background-color: #cdcdcd;
+}
+
+.angularjs1-bar > .determinate {
+    background-color: #444;
+}
+
+.angularjs-bar.progress {
+    background-color: #e8b8b3;
+}
+
+.angularjs-bar > .determinate {
+    background-color: #c4473a;
+}
+
+.bootstrap-bar.progress {
+    background-color: #c8badc
+}
+
+.bootstrap-bar > .determinate {
+    background-color: #59407f;
+}
+
+.android-bar.progress {
+    background-color: #dce8b1;
+}
+
+.android-bar > .determinate {
+    background-color: #a4c439;
+}
+
+.git-bar.progress {
+    background-color: #f9ab98;
+}
+
+.git-bar > .determinate {
+    background-color: #f34f29;
+}
+
+.illustrator-bar.progress {
+    background-color: #fdd598;
+}
+
+.illustrator-bar > .determinate {
+    background-color: #faa625;
+}
+
+.nodejs-bar.progress {
+    background-color: #cdeda6;
+}
+
+.nodejs-bar > .determinate {
+    background-color: #83CD29;
+}
+
+.photoshop-bar.progress {
+    background-color: #a0c8e9;
+}
+
+.photoshop-bar > .determinate {
+    background-color: #3086d0;
+}
+
+.csharp-bar.progress {
+    background-color: #deb0ea;
+}
+
+.csharp-bar > .determinate {
+    background-color: #68217a;
+}
+
+.vs-bar.progress {
+    background-color: #b8b5e0;
+}
+
+.vs-bar > .determinate {
+    background-color: #373277;
+}
+
+.materialize-bar.progress {
+    background-color: #f4a3a6;
+}
+
+.materialize-bar > .determinate {
+    background-color: #ee6e73;
+}
+
+.invision-bar.progress{
+    background-color:#ee9db0;
+}
+
+.invision-bar > .determinate {
+    background-color: #dc395f;
+}
+
+.ts-bar.progress{
+    background-color:#91d3ff;
+}
+
+.ts-bar > .determinate {
+    background-color: #007ACC;
 }

@@ -87,7 +87,7 @@ footer.page-footer {
     text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#logo-container, h1, h5{
+#logo-container, h1, h5, h2{
     font-weight: 200;
 }
 h1{
@@ -95,4 +95,13 @@ h1{
 }
 #logo-container{
     font-size: 1.75em;
+}
+
+.modal{
+    width: 90%;
+}
+
+.modal.modal-fixed-footer {
+    height: 100%;
+    min-height: 400px;
 }

@@ -46,12 +46,11 @@ footer.page-footer {
 }
 
 #about{
-    background: 
+    background: url(../images/about-background.png) repeat;
     /*linear-gradient(
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.0)
     ),*/
-   url(../images/about-background.png) repeat;
 }
 
 .card-background{
@@ -70,21 +69,10 @@ footer.page-footer {
     cursor: pointer;
 }
 
-.do-not-push{
-    width: 200px;
-    height: 200px;
-}
-
-.do-not-push > i {
-    width: inherit;
-    display: inline-block;
-    text-align: center;
-    line-height: 2em;
-    font-size: 7em;
-}
-
-#funny h2 {
+#work-process h1 {
+    font-weight: 400;
     text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: .5em;
 }
 
 #logo-container, h1, h5, h2{
@@ -99,9 +87,36 @@ h1{
 
 .modal{
     width: 90%;
+    max-height: 80%
 }
 
 .modal.modal-fixed-footer {
     height: 100%;
+}
+
+.modal-icons > i{
+    font-size:15em;
+    padding: .2em 0;
+}
+
+#skills{
     min-height: 400px;
+}
+
+.card-description{
+    font-size: 16px;
+}
+
+.collapsible-header{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: .5em 1em;
+}
+
+.collapsible-header > i{
+    font-size: 2em;
+}
+
+.collapsible-body{
+    font-size: 16px;
 }

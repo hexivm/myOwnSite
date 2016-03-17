@@ -82,7 +82,7 @@
                 <!--   Icon Section   -->
                 <div class="row">
                     <div class="col s12 m6 l4 center">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <div class="activator teal accent-4 white-text card-background"><i class="material-icons">person_pin</i></div>
                             </div>
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 l4 center">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <div class="activator teal accent-4 white-text card-background"><i class="material-icons">thumb_up</i></div>
                             </div>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 offset-m3 l4 center">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <div class="activator teal accent-4 white-text card-background"><i class="material-icons">info</i></div>
                             </div>
@@ -135,188 +135,249 @@
         </div>
     </section>
 
-    <section id="funny" class="parallax-container">
+    <section id="skills" class="grey darken-4">
+        <div class="container">
+            <div class="section">
+
+                <!--   Icon Section   -->
+                <div class="row center">
+
+                    <div class="col s12 m6 center">
+                        <p class="modal-icons"><i class="material-icons">trending_up</i></p>
+                        <button data-target="modalTimeline" class="btn modal-trigger waves-effect waves-light purple darken-4 modal-trigger" href="#modalTimeline">Experience</button>
+                    </div>
+
+                    <div class="col s12 m6 center">
+                        <p class="modal-icons"><i class="fa fa-code"></i></p>
+                        <button data-target="modalSkills" class="btn modal-trigger waves-effect waves-light purple darken-4 modal-trigger" href="#modalSkills">skills</button>
+                    </div>
+                </div>
+                <!-- Modal Structure -->
+                <div id="modalTimeline" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>My experience</h4>
+                        <ul class="timeline">
+
+                            <!-- Item 1 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">WebDev @ERNI</span>
+                                        <span class="time-wrapper"><span class="time">2015 - present</span></span>
+                                    </div>
+                                    <div class="desc">Front-end development of management web app for Jungheinrich current trucks control software</div>
+                                    <div class="desc">Front-end development of management web app for BLS (Swiss train company) internal communication,meetings
+                                        and document sharing process</div>
+                                </div>
+                            </li>
+
+                            <!-- Item 2 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Dev @Altran.</span>
+                                        <span class="time-wrapper"><span class="time">2014 - 2015</span></span>
+                                    </div>
+                                    <div class="desc">Maintenance and development new modules of an Android app for Carglass Spain internal
+                                        job scheduler application.
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 3 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">WebDev @Movilmax.</span>
+                                        <span class="time-wrapper"><span class="time">2013 - 2014</span></span>
+                                    </div>
+                                    <div class="desc">UX / Design and Development Twitter statistics / analytics generator</div>
+                                </div>
+                            </li>
+
+                            <!-- Item 4 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Dev @Trascend.</span>
+                                        <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                                    </div>
+                                    <div class="desc">Design and development Android application for Banesco (Venezuelan bank)</div>
+                                    <div class="desc">Development and maintenance new modules for Banesco (Venezuelan bank) online banking
+                                        platform
+                                    </div>
+                                    <div class="desc">Development of internal process management web application form MRW Venezuela</div>
+                                </div>
+                            </li>
+
+                            <!-- Item 5 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">UCAB University (CCS, VE)</span>
+                                        <span class="time-wrapper"><span class="time">2005 - 2011</span></span>
+                                    </div>
+                                    <div class="desc">Software Engineer degree =)</div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+                    </div>
+                </div>
+                <!-- Modal Structure -->
+                <div id="modalSkills" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h4>Coding</h4>
+                        <section>
+                            <h5><i class="devicon-html5-plain colored"></i>&nbsp;HTML5</h5>
+                            <div class="html5-bar progress">
+                                <div class="determinate" style="width: 90%"></div>
+                            </div>
+                            <h5><i class="devicon-css3-plain colored"></i>&nbsp;CSS3</h5>
+                            <div class="css3-bar progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                            <h5><i class="devicon-javascript-plain colored"></i>&nbsp;JavaScript</h5>
+                            <div class="javascript-bar progress">
+                                <div class="determinate" style="width: 75%"></div>
+                            </div>
+                            <h5><i class="devicon-android-plain colored"></i>&nbsp;Android</h5>
+                            <div class="android-bar progress">
+                                <div class="determinate" style="width: 60%"></div>
+                            </div>
+                            <h5><i class="devicon-csharp-plain colored"></i>&nbsp;C Sharp</h5>
+                            <div class="csharp-bar progress">
+                                <div class="determinate" style="width: 90%"></div>
+                            </div>
+                            <h5><img src="images/ts.svg" height="23" />&nbsp;TypeScript</h5>
+                            <div class="ts-bar progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                            <h5><span class="devicons devicons-scrum"></span>&nbsp;SCRUM</h5>
+                            <div class="progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                        </section>
+                        <h4>Tools</h4>
+                        <section>
+                            <h5><i class="devicon-jquery-plain colored"></i>&nbsp;jQuery</h5>
+                            <div class="jquery-bar progress">
+                                <div class="determinate" style="width: 50%"></div>
+                            </div>
+                            <h5><i class="devicon-sass-original colored"></i>&nbsp;Sass</h5>
+                            <div class="sass-bar progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                            <h5><i class="devicon-angularjs-plain"></i>&nbsp;AngularJS 1.x</h5>
+                            <div class="angularjs1-bar progress">
+                                <div class="determinate" style="width: 75%"></div>
+                            </div>
+                            <h5><i class="devicon-angularjs-plain colored"></i>&nbsp;AngularJS</h5>
+                            <div class="angularjs-bar progress">
+                                <div class="determinate" style="width: 60%"></div>
+                            </div>
+                            <h5><i class="devicon-bootstrap-plain colored"></i>&nbsp;Bootstrap</h5>
+                            <div class="bootstrap-bar progress">
+                                <div class="determinate" style="width: 90%"></div>
+                            </div>
+                            <h5><i class="devicon-git-plain colored"></i>&nbsp;Git</h5>
+                            <div class="git-bar progress">
+                                <div class="determinate" style="width: 70%"></div>
+                            </div>
+                            <h5><i class="devicon-nodejs-plain colored"></i>&nbsp;NodeJS</h5>
+                            <div class="nodejs-bar progress">
+                                <div class="determinate" style="width: 60%"></div>
+                            </div>
+                            <h5><span class="devicons devicons-materializecss"></span>&nbsp;Materialize</h5>
+                            <div class="materialize-bar progress">
+                                <div class="determinate" style="width: 90%"></div>
+                            </div>
+                            <h5><span class="devicons devicons-visualstudio"></span>&nbsp;Visual Studio Code</h5>
+                            <div class="vs-bar progress">
+                                <div class="determinate" style="width: 100%"></div>
+                            </div>
+                        </section>
+                        <h4>UX & Design</h4>
+                        <section>
+                            <h5><i class="devicon-photoshop-plain colored"></i>&nbsp;Photoshop</h5>
+                            <div class="photoshop-bar progress">
+                                <div class="determinate" style="width: 40%"></div>
+                            </div>
+                            <h5><i class="devicon-illustrator-plain colored"></i>&nbsp;Illustrator</h5>
+                            <div class="illustrator-bar progress">
+                                <div class="determinate" style="width: 70%"></div>
+                            </div>
+                            <h5><img src="images/invision.svg" height="23" width="23" />&nbsp;InVision</h5>
+                            <div class="invision-bar progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                            <h5>UX Specialization</h5>
+                            <div class="progress">
+                                <div class="indeterminate"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work-process" class="parallax-container">
         <div class="section">
             <div class="container">
                 <div class="row center">
-                    <button data-target="modalTimeline" class="btn modal-trigger btn-floating waves-effect waves-light red darken-4 do-not-push modal-trigger"
-                    href="#modalTimeline"><i class="material-icons">trending_up</i></button>
-                    <h2>Launch experience timeline</h2>
-                    <button data-target="modalSkills" class="btn modal-trigger btn-floating waves-effect waves-light green darken-4 do-not-push modal-trigger"
-                    href="#modalSkills"><i class="fa fa-code fa-5x"></i></button>
-                    <h2>Launch skills</h2>
+                    <h1 class="white-text">Work Process</h1>
+                    <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header grey darken-4 white-text"><i class="material-icons">forum</i>Requirements</div>
+                            <div class="collapsible-body white darken-text">
+                                <p>The first step in designing a successful web site is to gather information. Many things need to be taken into consideration when the look and feel of your site is created.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header grey darken-4 white-text"><i class="material-icons">assignment</i>Planning</div>
+                            <div class="collapsible-body white darken-text">
+                                <p>Using the information gathered from phase one, it is time to put together a plan for your web site. This is the point where a site map is developed.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header grey darken-4 white-text"><i class="material-icons">web</i>Design</div>
+                            <div class="collapsible-body white darken-text">
+                                <p>Drawing from the information gathered up to this point, it’s time to determine the look and feel of your site.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header grey darken-4 white-text"><i class="material-icons">settings</i>Development</div>
+                            <div class="collapsible-body white darken-text">
+                                <p>The developmental stage is the point where the web site itself is created. At this time, I will take all of the individual graphic elements from the prototype and use them to create the actual functional site.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header grey darken-4 white-text"><i class="material-icons">whatshot</i>Testing</div>
+                            <div class="collapsible-body white darken-text">
+                                <p>At this point, I will attend to the final details and test your web site. I will test things such as the complete functionality of forms or other scripts, as well last testing for last minute compatibility issues (viewing differences between different web browsers), ensuring that your web site is optimized to be viewed properly in the most recent browser versions.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header grey darken-4 white-text"><i class="material-icons">visibility</i>Maintenance</div>
+                            <div class="collapsible-body white darken-text">
+                                <p>The development of your web site is not necessarily over, though. One way to bring repeat visitors to your site is to offer new content or products on a regular basis. I will be more than happy to continue working together with you, to update the information on your web site. I can offer maintenance packages at reduced rates, based on how often you anticipate making changes or additions to your web site.</p>
+                            </div>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
         <div class="parallax"><img src="images/funny-background.jpg" alt=""></div>
 
-        <!-- Modal Structure -->
-        <div id="modalTimeline" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <h4>My experience</h4>
-                <ul class="timeline">
 
-                    <!-- Item 1 -->
-                    <li>
-                        <div class="direction-r">
-                            <div class="flag-wrapper">
-                                <span class="flag">WebDev @ERNI</span>
-                                <span class="time-wrapper"><span class="time">2015 - present</span></span>
-                            </div>
-                            <div class="desc">Front-end development of management web app for Jungheinrich current trucks control software</div>
-                            <div class="desc">Front-end development of management web app for BLS (Swiss train company) internal communication,meetings and document sharing process</div>
-                        </div>
-                    </li>
-
-                    <!-- Item 2 -->
-                    <li>
-                        <div class="direction-l">
-                            <div class="flag-wrapper">
-                                <span class="flag">Dev @Altran.</span>
-                                <span class="time-wrapper"><span class="time">2014 - 2015</span></span>
-                            </div>
-                            <div class="desc">Maintenance and development new modules of an Android app for Carglass Spain internal job scheduler application.</div>
-                        </div>
-                    </li>
-
-                    <!-- Item 3 -->
-                    <li>
-                        <div class="direction-r">
-                            <div class="flag-wrapper">
-                                <span class="flag">WebDev @Movilmax.</span>
-                                <span class="time-wrapper"><span class="time">2013 - 2014</span></span>
-                            </div>
-                            <div class="desc">UX / Design and Development Twitter statistics / analytics generator</div>
-                        </div>
-                    </li>
-
-                    <!-- Item 4 -->
-                    <li>
-                        <div class="direction-l">
-                            <div class="flag-wrapper">
-                                <span class="flag">Dev @Trascend.</span>
-                                <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
-                            </div>
-                            <div class="desc">Design and development Android application for Banesco (Venezuelan bank)</div>
-                            <div class="desc">Development and maintenance new modules for Banesco (Venezuelan bank) online banking platform</div>
-                            <div class="desc">Development of internal process management web application form MRW Venezuela</div>
-                        </div>
-                    </li>
-
-                    <!-- Item 5 -->
-                    <li>
-                        <div class="direction-r">
-                            <div class="flag-wrapper">
-                                <span class="flag">UCAB University (CCS, VE)</span>
-                                <span class="time-wrapper"><span class="time">2005 - 2011</span></span>
-                            </div>
-                            <div class="desc">Software Engineer degree =)</div>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-            </div>
-        </div>
-        <!-- Modal Structure -->
-        <div id="modalSkills" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <h4>Coding</h4>
-                <section>
-                    <h5><i class="devicon-html5-plain colored"></i>&nbsp;HTML5</h5>
-                    <div class="html5-bar progress">
-                        <div class="determinate" style="width: 90%"></div>
-                    </div>
-                    <h5><i class="devicon-css3-plain colored"></i>&nbsp;CSS3</h5>
-                    <div class="css3-bar progress">
-                        <div class="determinate" style="width: 80%"></div>
-                    </div>
-                    <h5><i class="devicon-javascript-plain colored"></i>&nbsp;JavaScript</h5>
-                    <div class="javascript-bar progress">
-                        <div class="determinate" style="width: 75%"></div>
-                    </div>
-                    <h5><i class="devicon-android-plain colored"></i>&nbsp;Android</h5>
-                    <div class="android-bar progress">
-                        <div class="determinate" style="width: 60%"></div>
-                    </div>
-                    <h5><i class="devicon-csharp-plain colored"></i>&nbsp;C Sharp</h5>
-                    <div class="csharp-bar progress">
-                        <div class="determinate" style="width: 90%"></div>
-                    </div>
-                    <h5><img src="images/ts.svg" height="23" />&nbsp;TypeScript</h5>
-                    <div class="ts-bar progress">
-                        <div class="determinate" style="width: 80%"></div>
-                    </div>
-                    <h5><span class="devicons devicons-scrum"></span>&nbsp;SCRUM</h5>
-                    <div class="progress">
-                        <div class="determinate" style="width: 80%"></div>
-                    </div>
-                </section>
-                <h4>Tools</h4>
-                <section>
-                    <h5><i class="devicon-jquery-plain colored"></i>&nbsp;jQuery</h5>
-                    <div class="jquery-bar progress">
-                        <div class="determinate" style="width: 50%"></div>
-                    </div>
-                    <h5><i class="devicon-sass-original colored"></i>&nbsp;Sass</h5>
-                    <div class="sass-bar progress">
-                        <div class="determinate" style="width: 80%"></div>
-                    </div>
-                    <h5><i class="devicon-angularjs-plain"></i>&nbsp;AngularJS 1.x</h5>
-                    <div class="angularjs1-bar progress">
-                        <div class="determinate" style="width: 75%"></div>
-                    </div>
-                    <h5><i class="devicon-angularjs-plain colored"></i>&nbsp;AngularJS</h5>
-                    <div class="angularjs-bar progress">
-                        <div class="determinate" style="width: 60%"></div>
-                    </div>
-                    <h5><i class="devicon-bootstrap-plain colored"></i>&nbsp;Bootstrap</h5>
-                    <div class="bootstrap-bar progress">
-                        <div class="determinate" style="width: 90%"></div>
-                    </div>
-                    <h5><i class="devicon-git-plain colored"></i>&nbsp;Git</h5>
-                    <div class="git-bar progress">
-                        <div class="determinate" style="width: 70%"></div>
-                    </div>
-                    <h5><i class="devicon-nodejs-plain colored"></i>&nbsp;NodeJS</h5>
-                    <div class="nodejs-bar progress">
-                        <div class="determinate" style="width: 60%"></div>
-                    </div>
-                    <h5><span class="devicons devicons-materializecss"></span>&nbsp;Materialize</h5>
-                    <div class="materialize-bar progress">
-                        <div class="determinate" style="width: 90%"></div>
-                    </div>
-                    <h5><span class="devicons devicons-visualstudio"></span>&nbsp;Visual Studio Code</h5>
-                    <div class="vs-bar progress">
-                        <div class="determinate" style="width: 100%"></div>
-                    </div>
-                </section>
-                <h4>UX & Design</h4>
-                <section>
-                    <h5><i class="devicon-photoshop-plain colored"></i>&nbsp;Photoshop</h5>
-                    <div class="photoshop-bar progress">
-                        <div class="determinate" style="width: 40%"></div>
-                    </div>
-                    <h5><i class="devicon-illustrator-plain colored"></i>&nbsp;Illustrator</h5>
-                    <div class="illustrator-bar progress">
-                        <div class="determinate" style="width: 70%"></div>
-                    </div>
-                    <h5><img src="images/invision.svg" height="23" width="23" />&nbsp;InVision</h5>
-                    <div class="invision-bar progress">
-                        <div class="determinate" style="width: 80%"></div>
-                    </div>
-                    <h5>UX Specialization</h5>
-                    <div class="progress">
-                        <div class="indeterminate"></div>
-                    </div>
-                </section>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-            </div>
-        </div>
     </section>
 
     <footer id="footer" class="page-footer grey darken-4 z-depth-1">

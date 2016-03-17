@@ -3,7 +3,6 @@
     $('.modal-trigger').leanModal();
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-
     $('.do-not-push').click(function(){
         console.log(`
                                             ,:

@@ -2,8 +2,8 @@ nav ul a, nav .brand-logo, .modal-content {
   color: #444;
 }
 
-.parallax-container {
-  color: rgba(255,255,255,.9);
+.modal-icons{
+    color: #FFF;
 }
 
 .html5-bar.progress {

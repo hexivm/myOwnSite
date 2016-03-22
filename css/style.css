@@ -86,7 +86,6 @@ h1{
 }
 
 .modal{
-    width: 90%;
     max-height: 80%
 }
 
@@ -95,7 +94,7 @@ h1{
 }
 
 .modal-icons > i{
-    font-size:15em;
+    font-size:12em;
     padding: .2em 0;
 }
 
@@ -108,15 +107,41 @@ h1{
 }
 
 .collapsible-header{
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-transform: uppercase;
-    padding: .5em 1em;
+    padding: .75em 1em;
 }
 
 .collapsible-header > i{
     font-size: 2em;
+    float: right;
 }
 
 .collapsible-body{
     font-size: 16px;
+}
+
+.enumerator{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    /*small*/
+  .modal {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    /*med*/
+  .modal {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+    /*large*/
+  .modal {
+    width: 70%;
+  }
 }

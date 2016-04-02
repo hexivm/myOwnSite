@@ -115,6 +115,7 @@ h1{
 .collapsible-header > i{
     font-size: 2em;
     float: right;
+    line-height: 1.5;
 }
 
 .collapsible-body{
